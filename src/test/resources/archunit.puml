@@ -1,0 +1,9 @@
+@startuml archiunit
+
+[Service] <<..service>> as service
+
+[Persistence] <<..repository>> as persistence
+
+service --> persistence
+
+@enduml
